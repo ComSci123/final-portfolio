@@ -37,8 +37,7 @@ overflow: hidden;
 .img{
     float: left;
     margin-right: 0 20px 0 20px;
-    height: 400px;
-    width: 400px;
+    
 }
 .home{
     color: aliceblue;
@@ -108,11 +107,25 @@ span{
         height: 100vh;   
     }
     .img{
-        height: 100px;
-        width: 100px;
+        height: 200px;
+        width: 200px;
+        margin-left: 50px;
     }
     .introduction{
-        font-size: 10px;
+        font-size: 15px;
         
     }
+    .home{
+        font-size: 15px;
+    }
+    .resume{
+        font-size: 15px;
+    }
+    .skills{
+        font-size: 15px;
+    }
+    .contact{
+        font-size: 15px;
+    }
+
 }
