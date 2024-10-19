@@ -1,0 +1,109 @@
+body {
+  background-image: url(bg-3.webp);
+}
+.navbar {
+  display: flex ;
+  font-size: 25px;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  gap: 20px;
+  padding: 10px;
+  justify-content: flex-end;
+margin: 10px 20px 10px 20px;
+  
+}
+.container {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 5px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  margin: 20px;
+overflow: hidden;
+
+
+}
+.img{
+    float: left;
+    margin-right: 0 20px 0 20px;
+    
+}
+.home{
+    color: aliceblue;
+    text-decoration: none;
+}
+.home:hover{
+    color: rgb(242, 75, 131);
+}
+.resume{
+    color: aliceblue;
+    text-decoration: none;
+}
+.resume:hover{
+    color: rgb(242, 75, 131);
+}
+.skills{
+    color: aliceblue;
+    text-decoration: none;
+}
+.skills:hover{
+    color: rgb(242, 75, 131);
+}
+.contact{
+    color: aliceblue;
+    text-decoration: none;
+}
+.contact:hover{
+    color: rgb(242, 75, 131);
+}
+.introduction{
+    font-size: 25px;
+    color: aliceblue;
+    justify-content: center;
+    margin-top: 100px;
+    font-weight: bold;
+}
+.intro{
+    text-align: center;
+}
+.position{
+    text-align: center;
+}
+p{
+    text-align: center;
+    text-wrap: wrap;
+}
+span{
+    color: rgb(145, 60, 60);
+    font-size: 35px;
+}
+.btn-container{
+    display: flex;                 /* Makes the container a flexbox */
+    justify-content: center;       /* Centers the button horizontally */
+    align-items: center;           /* Centers the button vertically if height is set */
+    font-weight: bold; 
+}
+.fa{
+    text-align: center;
+    padding: 10px;
+    
+}
+@media (max-width:400px){
+    .container{
+        display: flex;               /* Makes the container a flexbox */
+        justify-content: center;     /* Centers the image horizontally */
+        align-items: center;         /* Centers vertically (if container height is set) */
+        height: 100vh;   
+    }
+}
