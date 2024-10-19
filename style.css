@@ -82,7 +82,6 @@ overflow: hidden;
 }
 p{
     text-align: center;
-    text-wrap: wrap;
 }
 span{
     color: rgb(145, 60, 60);
@@ -100,19 +99,30 @@ span{
     
 }
 @media (max-width:400px){
+    .navbar{
+        justify-content: center;
+    }
     .container{
         display: flex;               /* Makes the container a flexbox */
         justify-content: center;     /* Centers the image horizontally */
         align-items: center;         /* Centers vertically (if container height is set) */
         height: 100vh;   
+        
     }
     .img{
         height: 200px;
         width: 200px;
-        margin-left: 50px;
+        margin: 0px 100px 20px 100px;
+
+    }
+    .myPic{
+        height: 400px;
+        width: 400px;
     }
     .introduction{
         font-size: 15px;
+        text-align: center;
+        line-height: 1.5;
         
     }
     .home{
@@ -126,6 +136,13 @@ span{
     }
     .contact{
         font-size: 15px;
+    }
+    p{
+        margin: 0px 60px 20px 60px;
+        
+    }
+    span{
+        font-size: 25px;
     }
 
 }
