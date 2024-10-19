@@ -37,7 +37,8 @@ overflow: hidden;
 .img{
     float: left;
     margin-right: 0 20px 0 20px;
-    
+    height: 400px;
+    width: 400px;
 }
 .home{
     color: aliceblue;
@@ -105,5 +106,13 @@ span{
         justify-content: center;     /* Centers the image horizontally */
         align-items: center;         /* Centers vertically (if container height is set) */
         height: 100vh;   
+    }
+    .img{
+        height: 100px;
+        width: 100px;
+    }
+    .introduction{
+        font-size: 10px;
+        
     }
 }
