@@ -106,17 +106,18 @@ span{
         display: flex;               /* Makes the container a flexbox */
         justify-content: center;     /* Centers the image horizontally */
         align-items: center;         /* Centers vertically (if container height is set) */
-        height: 100vh;   
+       /* height: 100vh;*/   
         
     }
     .img{
         height: 200px;
         width: 200px;
         margin: 0px 100px 20px 100px;
+        padding-top: 0px;
 
     }
     .myPic{
-        height: 400px;
+        height: 500px;
         width: 400px;
     }
     .introduction{
