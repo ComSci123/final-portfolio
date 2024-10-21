@@ -100,7 +100,8 @@ span {
   .container {
     display: flex; /* Makes the container a flexbox */
     justify-content: center; /* Centers the image horizontally */
-    height: auto;
+    align-items: start;
+    height: 100vh;
   }
   .img {
   
